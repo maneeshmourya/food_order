@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Kitchen Story-Homepage</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a href="homepage.html" class="navbar-brand">
+      <img src="https://find.allyourlocal.com/wp-content/uploads/2020/11/thekitchen_logo.jpg" alt="logo" width="50"
+        height="50" />
+      Kitchen Story
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="login.html" class="nav-link" style="color:white;">Login</a>
+        </li>
+        <li class="nav-item">
+          <a href="Items.html" class="nav-link" style="color:white;">Items</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" style="color:white;">Cart</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="logout()">Logout</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h1 class="text-center">About Our Services</h1>
+  <div class="row kitchen">
+    <form class="col-md-8 offset-2">
+      <input type="search" class="form-control mr-sm-2" name="search" id="search" placeholder="Search" />
+    </form>
+    <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="searchfunc()">
+      Serach
+    </button>
+  </div>
+  <div class="row text-center kitchen">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="pizza.jpg" class="cardimage" height="200px" width="200px">
+          <a href="pizza.html">
+            <h1>Pizza</h1>
+          </a>
+          <p>Onion, Capsicum and Paneer loaded with 40% special Discount</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="burger.jpg" class="cardimage" height="200px" width="200px">
+          <a href="burger.html">
+            <h1>Burger</h1>
+          </a>
+          <p>Order this Burger in a reasonable price. Highly delicious !!!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <img src="ice-cream.jpg" class="cardimage" height="200px" width="200px">
+          <a href="ice-cream.html">
+            <h1>Ice Cream</h1>
+          </a>
+          <p>Order this Ice Cream. Food of this season with 20% Discount.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

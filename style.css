@@ -1,0 +1,63 @@
+a:hover{
+    text-decoration:none;
+    color:rgb(9, 42, 161);
+    }
+    
+    a{
+    color:white;
+    }
+    
+    .kitchen{
+    height:100%;
+    width:100%;
+    padding-top:50px;
+    padding-right:50px;
+    padding-left:50px;
+    padding-bottom:50px;
+    }
+    
+    .container{
+    height:100%;
+    width:100%;
+    /* border:2px solid rgb(235, 20, 20);  */
+    padding: 2.0rem 3.0rem !important;
+    border-radius: 0.9rem !important;
+    box-sizing: border-box;
+    
+    }
+    
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 100%; 
+    /* background-image: linear-gradient(to right, rgb(14, 239, 3), rgba(176, 184, 194, 0.985) ); */
+    background-image: url(zomato.jpg);
+    background-size: cover;  
+    background-attachment: fixed;
+    color: rgb(214, 199, 199);
+    }
+    
+    .navbar{
+        padding: 0px 8px;
+    }
+    
+    .card{
+    background: linear-gradient(to right, #859dc9, #50868d);
+    }
+    
+    .cardimage{
+    height: 100px;
+    width: 100px;
+    }
+    
+    #continue{
+    width:100px;
+    
+    }
+    
+    #pay{
+    width:20px;
+    margin:0 auto;
+    }
+    
